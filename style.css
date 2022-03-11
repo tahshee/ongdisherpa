@@ -1,0 +1,29 @@
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    background: #696969;
+    font-size: 22px;
+    padding: 5px;
+}
+.parallax{
+    background: url('images/image1.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+body
+{
+    background-image: url("images/bg.jpg");
+    background-size: auto;
+}
+
+nav a {
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    color: aliceblue;
+    margin: 10px;
+    position: sticky;
+}
